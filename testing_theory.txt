@@ -1,0 +1,93 @@
+
+Software testing = process associated with increasing the quality of a software product and which involves multiple products from creating documentation to executing test cases and reporting.
+
+Testing principles
+    1. testing shows presence of defects
+        through testing we can prove that the product has or had defects
+        but we can not prove that the product deos not have or did not have any defects
+    2. exhaustive testing is impossible
+        it is impossible to test all combinations of inputs and outputs in the system
+    3. early testing
+        is recommended to start testing as soon as possible because finding defects early makes them easier to fix
+    4. defect clustering
+        defects tend to group themselves in a certain area of the system
+    5. pesticide paradox
+        if we always run the same tests, at some point we will no longer find any bugs
+    6. testing is context dependent
+        depending on the platform that we are going to test, we are going to choose a different testing approach in order to maximize the efficiency of testing
+    7. absence of errors fallacy
+        even if the product does not return any error, it doesn't mean it fulfills the customers needs
+Test Levels
+    1. Unit Testing
+        testing the smallest functional piece of code
+    2. Component Testing
+        testing one module of the application
+    3. Integration Testing
+        testing that connected components are communicating
+    4. System Testing
+        testing the complete and fully integrated software product
+    5. Acceptance Testing
+        performed to determine whether or not the software system has met the requirements specifications
+Tricky phrases
+    1. retesting = test type checking if a bug was fixed
+    2. regression testing = test type checking if fixing a bug generated others in impacted areas
+    3. error = a mistake a human being can make
+    4. defect = a problem existing in any testware that can lead to the malfunction of the problem
+    5. failure = the reproduction of a defect, visible to the end user. can be reproduced by executing defect code
+    6. functional testing = verifying if the product performs its functions
+    7. non-functional testing = verifying how well the product performs its functions
+Test Executions
+    1. requirements = customer specifications describing how the product should work
+    2. test condition = what are we going to test?
+    3. test case = how are we going to test?
+    4. bug = a discrepancy between how the product should work and how is it actually working
+    5. test plan
+        1. document created at the beginning of the test process containing roles schedules, risks, entry criteria, exit criteria and other elements connected to planning
+        2. set of cases grouped into a test management tool having the same objective
+Process
+    Test Planning
+        the test process is organized, roles are allocated, entry and exit criteria are defined, initial risks are defined, test plan is created, entry criteria is verified
+    Test Monitoring and Control
+        testing is monitored in order to check whether what we planned to do is actually happening. if is doesn't, we will control measures in order to be back on track. Continuous phase throughout the entire process
+    Test Analysis
+        requirements are being analyzed in order to understand what are we going to test and test conditions are created
+    Test Design
+        test cases are created based on the above defined test conditions
+    Test Implementation
+        the execution of the test cases previously created starts to be prepared. Test plans are created, environment is ensured, test data is generated
+    Test Execution
+        test cases are executed, bugs (defects) are reported, fixed and retested, test summary reports are generated
+    Test Completion
+        exit criteria is verified, all reported defects are closed, test completion reports are created and sent to the stakeholders
+Testing Approaches
+    Testing design techniques
+         Static techniques
+            review = a layered approach, which allows the Review Team to provide advice and counsel to project teams after citing finding during face-to-face interviews
+            static analysis = testing performed individually without executing the code
+         Dynamic techniques
+            white-box testing = testing done with access to the code
+            black-box testing = testing done without access to the code
+    Risk based testing
+        Risk = possibility of a negative or undesirable outcome
+        Risk impact = the effect that a certain risk would bring to the system if reproduced
+        Risk probability = what are the chances for a specific risk to reproduce?
+        Risk level = Impact * Probability
+
+        Project risk = risk connected to the development of the product
+        Product risk = risk connected to the use of the product
+
+        Risk management
+            Mitigation = reduces the consequences if the risk reproduce
+            Contingency = determines how problems can be solved if a crisis occurs
+Testware and practice
+    Testing tools: Postman, swagger, MySQL workbench, Jira, TestRail
+    Testing classes
+        Web Apps = application that doesn't get installed but is accessed via web
+        Mobile testing = software products which run on mobile
+        Graphical user interface = version of the software that eases the communication between user and system. (FrontEnd)
+        Backend = the part of application that is not visible to the end-user
+        Form = an object associated with a page that contains rules about how the browser should display user view attributes on that page
+        Postman = tool used to simulate the communication between a client and a server
+        Responsive Website = website which looks good on all supported devices
+        E-commerce website = web pages from which customers can buy products online
+

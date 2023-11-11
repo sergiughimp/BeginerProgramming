@@ -1,0 +1,10 @@
+
+SQL (Stuctured Query Language) = programming language which allows us to interact with a database
+    Database (tables, similar with Excel tables )
+    SQL Tables
+         set of data representing certain entity (clients, products, orders) presented in a bidirectional structure (row and columns), like an excel table
+         all tables are connected among them with different kinds of relationship which give the name of relational database
+    SQL Subsets = set of instructions directed towards a database management action type
+        DDL (Data Definition Language) = set of instructions directed towards creating and updating the structure of the database: CREATE, ALTER, RENAME, DROP
+        DML (Data Manipulation Language) = Set of instructions directed towards creating and updating the information inside of the database: INSERT, UPDATE, DELETE, TRUNCATE
+        DQL (Data Query Language) = set of instructions directed towards extracting the information from the database: SELECT, WHERE, AND, OR
